@@ -5,3 +5,7 @@
 MYMETA.*
 !META.json
 /.prove
+Test.pm
+*.txt
+1.html
+pod2htmd.tmp
