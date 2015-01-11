@@ -1,0 +1,7 @@
+/Kavorka-TraitFor-Parameter-doc-*
+/.build
+/_build*
+/Build
+MYMETA.*
+!META.json
+/.prove
