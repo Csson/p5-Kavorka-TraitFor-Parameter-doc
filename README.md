@@ -13,19 +13,19 @@ Version 0.0001, released 2015-01-12.
 
     class My::Class using Moose {
 
-        method tester(Int $integer does doc('This does something important.')) {
-            return $integer;
+        method square(Int $integer does doc('The integer to square.')) {
+            return $integer * $integer;
         }
 
     }
 
     # Elsewhere
-    my $param = My::Class->meta->get_method('do_something')->signature->params->[1];
+    my $param = My::Class->meta->get_method('square')->signature->params->[1];
     say sprintf '%s %s. %s', $param->optional ? 'Optional' : 'Required',
                              $param->type->name,
                              $param->traits->{'doc'}[0];
 
-    # says 'Required Int. This does something important.'
+    # says 'Required Int. The integer to square.'
 
 # DESCRIPTION
 
@@ -36,6 +36,10 @@ Kavorka::TraitFor::Parameter::doc adds a trait (`doc`) that is useful for docume
 - [Moops](https://metacpan.org/pod/Moops)
 - [Kavorka](https://metacpan.org/pod/Kavorka)
 - [Moose](https://metacpan.org/pod/Moose)
+
+# SOURCE
+
+[https://github.com/Csson/p5-Kavorka-TraitFor-Parameter-doc](https://github.com/Csson/p5-Kavorka-TraitFor-Parameter-doc)
 
 # HOMEPAGE
 

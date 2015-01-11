@@ -49,7 +49,17 @@
       }
    },
    "release_status" : "stable",
-   "resources" : {},
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/Csson/p5-Kavorka-TraitFor-Parameter-doc/issues"
+      },
+      "homepage" : "https://metacpan.org/release/Kavorka-TraitFor-Parameter-doc",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/Csson/p5-Kavorka-TraitFor-Parameter-doc.git",
+         "web" : "https://github.com/Csson/p5-Kavorka-TraitFor-Parameter-doc"
+      }
+   },
    "version" : "0.0001"
 }
 

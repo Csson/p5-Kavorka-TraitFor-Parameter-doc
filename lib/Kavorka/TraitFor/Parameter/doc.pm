@@ -22,19 +22,19 @@ __END__
 
     class My::Class using Moose {
 
-        method tester(Int $integer does doc('This does something important.')) {
-            return $integer;
+        method square(Int $integer does doc('The integer to square.')) {
+            return $integer * $integer;
         }
 
     }
 
     # Elsewhere
-    my $param = My::Class->meta->get_method('do_something')->signature->params->[1];
+    my $param = My::Class->meta->get_method('square')->signature->params->[1];
     say sprintf '%s %s. %s', $param->optional ? 'Optional' : 'Required',
                              $param->type->name,
                              $param->traits->{'doc'}[0];
 
-    # says 'Required Int. This does something important.'
+    # says 'Required Int. The integer to square.'
 
 =head1 DESCRIPTION
 
