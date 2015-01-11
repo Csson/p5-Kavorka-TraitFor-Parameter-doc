@@ -2,7 +2,7 @@ use 5.14.0;
 use strict;
 use warnings;
 
-package Kavorka::TraitFor::Parameter::doc;
+package Kavorka::TraitFor::Sub::doc;
 
 # VERSION
 # ABSTRACT: Document method parameters in the signature
