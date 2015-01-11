@@ -1,10 +1,16 @@
 use Moops;
 
-class Kavorka::TraitFor::Parameter::MyKavorkaParamTraitTest using Moose {
+#PODNAME: Kavorka::TraitFor::Parameter::Test
+
+class Kavorka::TraitFor::Parameter::Test using Moose {
 
     has an_attr => (
         is => 'ro',
-        isa => Int,
+        isa => Int|Str,
+        traits => ['Documented'],
+        required => 0,
+        default => 'helloo',
+        documentation => 'Use it if you want to',
     );
     
 
@@ -17,9 +23,8 @@ __END__
 
 =pod
 
-:pinter :classname Kavorka::TraitFor::Parameter::MyKavorkaParamTraitTest
+:pinter :classname Kavorka::TraitFor::Parameter::Test
 
-:pinter :attributes
 
 =head1 SYNOPSIS
 
@@ -45,6 +50,11 @@ __END__
 =head1 DESCRIPTION
 
 Kavorka::TraitFor::Parameter::doc adds a trait (C<doc>) that is useful for documenting in L<Moops> classes created using L<Moose>.
+
+=head1 ATTRIBUTES
+
+:pinter :attributes
+
 
 =head1 SEE ALSO
 

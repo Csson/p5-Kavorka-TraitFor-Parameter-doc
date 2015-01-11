@@ -6,4 +6,3 @@ class MyKavorkaParamTraitTest using Moose {
         return $integer * $integer;
     }
 }
-
