@@ -1,7 +1,9 @@
-requires 'perl', '5.010001';
+requires 'perl', '5.014000';
 
-# requires 'Some::Module', 'VERSION';
+requires 'Moops';
+requires 'Moo::Role';
 
 on test => sub {
-requires 'Test::More', '0.96';
+	requires 'Test::More', '0.96';
+	requires 'Moops';
 };

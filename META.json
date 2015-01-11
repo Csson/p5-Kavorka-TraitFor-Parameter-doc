@@ -31,20 +31,19 @@
       },
       "develop" : {
          "requires" : {
-            "Test::EOF" : "0",
-            "Test::EOL" : "0",
-            "Test::More" : "0",
-            "Test::NoTabs" : "0",
             "Test::Pod" : "1.41"
          }
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.010001"
+            "Moo::Role" : "0",
+            "Moops" : "0",
+            "perl" : "5.014000"
          }
       },
       "test" : {
          "requires" : {
+            "Moops" : "0",
             "Test::More" : "0.96"
          }
       }
