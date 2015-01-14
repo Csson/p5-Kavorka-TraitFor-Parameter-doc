@@ -12,9 +12,12 @@ Revision history for Kavorka-TraitFor-Parameter-doc
  [Meta]
 
  [New Features]
- - Added ReturnType::doc
 
  [Revision]
+
+0.1100 2015-01-14T00:53:54Z CET
+ [New Features]
+ - Added ReturnType::doc
 
 0.1000 2015-01-12T00:27:46Z CET
  - Initial release
