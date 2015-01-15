@@ -23,7 +23,9 @@ __END__
     class My::Class using Moose {
 
         method square(Int $integer does doc('The integer to square.')) {
+
             return $integer * $integer;
+
         }
 
     }
@@ -43,6 +45,7 @@ Kavorka::TraitFor::Parameter::doc adds a trait (C<doc>) that is useful for docum
 =head1 SEE ALSO
 
 =for :list
+* L<Kavorka::TraitFor::ReturnType::doc>
 * L<Moops>
 * L<Kavorka>
 * L<Moose>

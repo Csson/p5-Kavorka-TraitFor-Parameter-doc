@@ -5,7 +5,7 @@ use warnings;
 package Kavorka::TraitFor::ReturnType::doc;
 
 # VERSION
-# ABSTRACT: Document method parameters in the signature
+# ABSTRACT: Document return types in the signature
 
 use Moo::Role;
 
@@ -22,27 +22,28 @@ __END__
 
     class My::Class using Moose {
 
-        method square(Int $integer does doc('The integer to square.')) {
+        method square(Int $integer --> Int does doc('The squared integer.')) {
+
             return $integer * $integer;
+
         }
 
     }
 
     # Elsewhere
-    my $param = My::Class->meta->get_method('square')->signature->params->[1];
-    say sprintf '%s %s. %s', $param->optional ? 'Optional' : 'Required',
-                             $param->type->name,
-                             $param->traits->{'doc'}[0];
+    my $return_type = My::Class->meta->get_method('square')->signature->return_types->[0];
+    say sprintf 'Returns an %s. %s', $return_type->type->name, $return_type->traits->{'doc'}[0];
 
-    # says 'Required Int. The integer to square.'
+    # says 'Returns an Int. The squared integer.'
 
 =head1 DESCRIPTION
 
-Kavorka::TraitFor::Parameter::doc adds a trait (C<doc>) that is useful for documenting in L<Moops> classes created using L<Moose>.
+Kavorka::TraitFor::ReturnType::doc adds a trait (C<doc>) that is useful for documenting in L<Moops> classes created using L<Moose>.
 
 =head1 SEE ALSO
 
 =for :list
+* L<Kavorka::TraitFor::Parameter::doc>
 * L<Moops>
 * L<Kavorka>
 * L<Moose>

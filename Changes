@@ -6,8 +6,10 @@ Revision history for Kavorka-TraitFor-Parameter-doc
  [Bug Fixes]
 
  [Documentation]
+ - Fixed documentation for ::ReturnType::doc.
 
  [Enhancements]
+ - Added test for ::ReturnType::doc.
 
  [Meta]
 

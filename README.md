@@ -4,7 +4,7 @@ Kavorka::TraitFor::Parameter::doc - Document method parameters in the signature
 
 # VERSION
 
-Version 0.1100, released 2015-01-14.
+Version 0.1101, released 2015-01-15.
 
 # SYNOPSIS
 
@@ -14,7 +14,9 @@ Version 0.1100, released 2015-01-14.
     class My::Class using Moose {
 
         method square(Int $integer does doc('The integer to square.')) {
+
             return $integer * $integer;
+
         }
 
     }
@@ -33,6 +35,7 @@ Kavorka::TraitFor::Parameter::doc adds a trait (`doc`) that is useful for docume
 
 # SEE ALSO
 
+- [Kavorka::TraitFor::ReturnType::doc](https://metacpan.org/pod/Kavorka::TraitFor::ReturnType::doc)
 - [Moops](https://metacpan.org/pod/Moops)
 - [Kavorka](https://metacpan.org/pod/Kavorka)
 - [Moose](https://metacpan.org/pod/Moose)
