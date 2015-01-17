@@ -39,7 +39,7 @@
          "requires" : {
             "Moo::Role" : "0",
             "Moops" : "0",
-            "Moose" : "2.000",
+            "Moose" : "2.0000",
             "perl" : "5.014000"
          }
       },

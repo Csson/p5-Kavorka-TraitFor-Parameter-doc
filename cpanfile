@@ -1,7 +1,7 @@
 requires 'perl', '5.014000';
 
 requires 'Moops';
-requires 'Moose', '2.000',
+requires 'Moose', '2.0000',
 requires 'Moo::Role';
 
 on test => sub {
