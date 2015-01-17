@@ -20,7 +20,8 @@
          "inc",
          "share",
          "eg",
-         "examples"
+         "examples",
+         "t/corpus"
       ]
    },
    "prereqs" : {
@@ -38,6 +39,7 @@
          "requires" : {
             "Moo::Role" : "0",
             "Moops" : "0",
+            "Moose" : "2.000",
             "perl" : "5.014000"
          }
       },
@@ -46,6 +48,16 @@
             "Moops" : "0",
             "Test::More" : "0.96"
          }
+      }
+   },
+   "provides" : {
+      "Kavorka::TraitFor::Parameter::doc" : {
+         "file" : "lib/Kavorka/TraitFor/Parameter/doc.pm",
+         "version" : "0.1102"
+      },
+      "Kavorka::TraitFor::ReturnType::doc" : {
+         "file" : "lib/Kavorka/TraitFor/ReturnType/doc.pm",
+         "version" : "0.1102"
       }
    },
    "release_status" : "stable",
@@ -60,6 +72,6 @@
          "web" : "https://github.com/Csson/p5-Kavorka-TraitFor-Parameter-doc"
       }
    },
-   "version" : "0.1101"
+   "version" : "0.1102"
 }
 
