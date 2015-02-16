@@ -10,11 +10,18 @@ Revision history for Kavorka-TraitFor-Parameter-doc
  [Enhancements]
 
  [Meta]
- - Added travis config.
 
  [New Features]
 
+ [Requirements]
+
  [Revision]
+
+ [Testing]
+
+0.1103 2015-02-16T20:32:18Z CET
+ [Meta]
+ - Added travis config.
 
  [Requirements]
  - Specified versions on some prereqs.
