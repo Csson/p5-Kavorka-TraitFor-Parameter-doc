@@ -3,7 +3,29 @@
 
 name: Kavorka-TraitFor-Parameter-doc
 
++prereqs:
+  runtime:
+    requires:
+      - perl: 5.014000
+      - Module::Runtime: 0.014
+      - Moops: 0.034
+      - Moo::Role
+  test:
+    requires:
+      - Moose: 2.0000
+
 +plugins:
 
  - +config: Author::CSSON
+
  - +remove_plugin: Splint
+
+ - +add_plugin: TravisYML
+   +before: Git::Tag
+   perl_version: 5.14 5.20
+
+---
++doctype: weaver
+
++plugins:
+  - +config: Author::CSSON
