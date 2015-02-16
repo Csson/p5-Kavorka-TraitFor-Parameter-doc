@@ -4,7 +4,7 @@ Kavorka::TraitFor::Parameter::doc - Document method parameters in the signature
 
 # VERSION
 
-Version 0.1101, released 2015-01-15.
+Version 0.1103, released 2015-02-16.
 
 # SYNOPSIS
 

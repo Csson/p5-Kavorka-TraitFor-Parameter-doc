@@ -10,10 +10,15 @@ Revision history for Kavorka-TraitFor-Parameter-doc
  [Enhancements]
 
  [Meta]
+ - Added travis config.
 
  [New Features]
 
  [Revision]
+
+ [Requirements]
+ - Specified versions on some prereqs.
+ - Updated dist.ini/weaver.ini (a few new plugins).
 
 0.1102 2015-01-17T03:48:47Z CET
  [Meta]
