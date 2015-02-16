@@ -1,0 +1,9 @@
+---
++doctype: dist
+
+name: Kavorka-TraitFor-Parameter-doc
+
++plugins:
+
+ - +config: Author::CSSON
+ - +remove_plugin: Splint
