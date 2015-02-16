@@ -4,7 +4,7 @@
       "Erik Carlsson <info@code301.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 5.029, CPAN::Meta::Converter version 2.143240",
+   "generated_by" : "Dist::Zilla version 5.031, CPAN::Meta::Converter version 2.143240",
    "license" : [
       "perl_5"
    ],
@@ -53,11 +53,11 @@
    "provides" : {
       "Kavorka::TraitFor::Parameter::doc" : {
          "file" : "lib/Kavorka/TraitFor/Parameter/doc.pm",
-         "version" : "0.1102"
+         "version" : "0.1103"
       },
       "Kavorka::TraitFor::ReturnType::doc" : {
          "file" : "lib/Kavorka/TraitFor/ReturnType/doc.pm",
-         "version" : "0.1102"
+         "version" : "0.1103"
       }
    },
    "release_status" : "stable",
@@ -72,6 +72,6 @@
          "web" : "https://github.com/Csson/p5-Kavorka-TraitFor-Parameter-doc"
       }
    },
-   "version" : "0.1102"
+   "version" : "0.1103"
 }
 
