@@ -1,8 +1,13 @@
-use Moops;
+use 5.14.0;
+use warnings;
 
-class MyKavorkaParamTraitTest using Moose {
+package MyKavorkaParamTraitTest {
+    use Moops;
 
-    method square(Int $integer does doc('The integer to square.') --> Int does doc('The integer squared.')) {
-        return $integer * $integer;
+    class Class using Moose {
+
+        method square(Int $integer does doc('The integer to square.') --> Int does doc('The integer squared.')) {
+            return $integer * $integer;
+        }
     }
 }
