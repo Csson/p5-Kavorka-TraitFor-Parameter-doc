@@ -14,10 +14,13 @@ Revision history for Kavorka-TraitFor-Parameter-doc
  [New Features]
 
  [Requirements]
+  - Moops dependency moved to testing where it belongs.
 
- [Revision]
+ [Other Changes]
+  - Rebuilt with current Dist::Iller::Config::Author::CSSON.
 
  [Testing]
+  - Modify test class to avoid a potential kwalitee issue.
 
 0.1103 2015-02-16T20:32:18Z CET
  [Meta]
