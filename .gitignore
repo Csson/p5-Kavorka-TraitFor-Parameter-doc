@@ -7,5 +7,4 @@ MYMETA.*
 /.prove
 /lib/Kavorka/TraitFor/Parameter/Test.pm
 *.txt
-1.html
-pod2htmd.tmp
+.coverhistory.json
