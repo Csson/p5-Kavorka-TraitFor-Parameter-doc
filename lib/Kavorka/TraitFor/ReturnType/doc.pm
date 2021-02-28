@@ -4,8 +4,9 @@ use warnings;
 
 package Kavorka::TraitFor::ReturnType::doc;
 
-# VERSION
+our $VERSION = '0.1105';
 # ABSTRACT: Document return types in the signature
+# AUTHORITY
 
 use Moo::Role;
 

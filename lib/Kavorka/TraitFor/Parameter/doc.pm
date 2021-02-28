@@ -4,8 +4,9 @@ use warnings;
 
 package Kavorka::TraitFor::Parameter::doc;
 
-# VERSION
+our $VERSION = '0.1105';
 # ABSTRACT: Document method parameters in the signature
+# AUTHORITY
 
 use Moo::Role;
 
