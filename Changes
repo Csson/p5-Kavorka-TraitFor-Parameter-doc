@@ -9,18 +9,26 @@ Revision history for Kavorka-TraitFor-Parameter-doc
 
  [Enhancements]
 
- [Meta]
-
  [New Features]
 
- [Requirements]
-  - Moops dependency moved to testing where it belongs.
-
  [Other Changes]
-  - Rebuilt with current Dist::Iller::Config::Author::CSSON.
+ - Replaced Travis with Github Actions
+ - Rebuilt with current Dist::Zilla config
+ - No functional changes
+
+ [Requirements]
 
  [Testing]
-  - Modify test class to avoid a potential kwalitee issue.
+
+0.1104 2016-01-26T19:10:56Z UTC
+ [Other Changes]
+ - Rebuilt with current Dist::Iller::Config::Author::CSSON.
+
+ [Requirements]
+ - Moops dependency moved to testing where it belongs.
+
+ [Testing]
+ - Modify test class to avoid a potential kwalitee issue.
 
 0.1103 2015-02-16T20:32:18Z CET
  [Meta]
